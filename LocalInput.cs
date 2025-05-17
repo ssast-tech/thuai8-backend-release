@@ -425,8 +425,8 @@ namespace Server
             _env = env;
             
             // 默认为所有玩家设置控制台输入方法
-            SetInputMethod(1, new ConsoleInputMethod());
-            SetInputMethod(2, new ConsoleInputMethod());
+            // SetInputMethod(1, new ConsoleInputMethod());
+            // SetInputMethod(2, new ConsoleInputMethod());
         }
         
         public void SetInputMethod(int playerId, IInputMethod inputMethod)
